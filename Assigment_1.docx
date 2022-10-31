@@ -1,0 +1,50 @@
+﻿1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+
+Ans: “*,-,/ and +” are   expression and “hello,-87.8,and 6” are values.
+
+2. What is the difference between string and variable?
+
+Ans: variable like symbols which refere and value(which can have any kind of datatype i.e string,list and etc..) and string is one kind of data type so you can store any string into any variable i.e whenever you have to use any big string just call respective vaiable where you store this string 
+
+3. Describe three different data types.
+
+Ans: a) String: It is array of bytes(words). It represent unicode charectors. It starts and ended by “” or ‘’. To convert any kind of data into string just put then into “” or ‘’. we can access any word or charector of string by using slicing.
+b) List: It use to store multiple items or element in single variable.List can have any king of data like str,tuple,dict etc.
+c) Tuple: It is same like list. The differnce is list start and end by [] but tuple by () also tuples are immutable that mean after assigning any value you can’t modified that and construction of tuples are fast compare to list.
+
+4. What is an expression made up of? What do all expressions do?
+
+Ans: An  expression is a combination of operators and operends that is intrupted to produce some value by then i.e. An  expression have varibales , operator and method invocations(that mean a function where you get evaluated values). We have many  expression or we can create any  expression by using our own operator example: constant  expression here you can give any constant value to any vaiable so when you call this variable you will get this value , Arthmetic expression here you can do +,-/,* operation with any value. So in conclusion we can say all  expression use to evaluate some value or create some logical and relation among values
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+
+Ans: here you are defining spam = 10 that is an action i.e. you assign some value to spam that is 10 but for that action you use “=” opreator and integer to expression which  means if you switch to another laguage that time statement may be change but expression remains same like js you need to write like this
+var spam = 10.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Ans: In first one becon contain integer value 33 and in second one it contains 23.
+
+7. What should the values of the following two terms be?
+‘spam’ + ‘spamspam’
+‘spam’ * 3
+
+Ans: ‘spam’ + ‘spamspam’ = ‘spamspamspam ’
+	‘spam’ * 3 = ‘spamspamspam’
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Ans: Becuase first charector for variable name can’t be digit i.e. instead for 100 if you use a100(variable name can be start by A-Z a-Z and _ not by digit) that time it becomes correct but in currect eggs is valid and 100 in invalid variable name.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+Ans: To convert any value in integer we use int() and for string we use str() and for float number we use float() function.
+
+10. Why does this expression cause an error? How can you fix it?
+‘I have eaten’ + 99 + ‘burritos’.
+
+Ans Becuase first and third value have string data type and second have integer so in python we can’t add string with integer. To resolve this we have to convert 99 into string like this.
+‘I have eaten’ + str(99) + ‘burritos’
