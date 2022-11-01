@@ -1,0 +1,56 @@
+﻿1. What exactly is []?
+Ans [] denots empty list i.e if you want append some element or want to do some other process with list then you need to initialize empty list.
+
+2. In a list of values stored in a variable called spam, how would you assign the value ‘hello’ as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans: spam[2] = ‘hello’
+
+Let&#39;s pretend the spam includes the list [‘a’,’b’,’c’,’d’] for the next three queries.
+
+3. What is the value of spam[int(int(‘3’* 2) / 11)]?
+Ans: ‘d’
+
+4. What is the value of spam[-1]?
+Ans: ‘d’
+
+5. What is the value of spam[:2]?
+Ans: [‘a’,’b’]
+
+Let&#39;s pretend bacon has the list [3.14, ‘cat’, 11, ‘cat’, True] for the next three questions.
+
+6. What is the value of bacon.index(‘cat’)?
+Ans: 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans: append method add element in list so 99 will add at last indexing position so it looks like [3.14, ‘cat’, 11, ‘cat’, True,99]
+
+8. How does bacon.remove(‘cat’) change the look of the list in bacon?
+Ans: It is use for remove particuler element from list so it start searching cat from indexing 0 and when cat found then remove it and come out so it look like this [3.14, 11, ‘cat’, True]
+
+9. What are the list concatenation and list replication operators?
+Ans: For concatenation we use + and for replication we use *
+
+10. What is difference between the list methods append() and insert()?
+Ans: append() is for add element in list at the and by by using insert() we can add element at any indexing or position.
+
+11. What are the two methods for removing items from a list?
+Ans: remove() and pop() use to remove element from list.
+
+12. Describe how list values and string values are identical.
+Ans: List is orderd collection of charector with any datatype and string also collection of charactor but un ordered and all have same data type
+
+13. What’s the difference between tuples and lists?
+Ans: tuples are immutable vise-versa list is mutable that mean you can chnage value of any index but not possible in tuple also operations in tuple is faster then list.
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans: Tuple start and end by () and elements in tuple separated by “,”
+so we write like this (42,).
+
+15. How do you get a list value’s tuple form? How do you get a tuple value&#39;s list form?
+Ans: If you want to convert tuple into list then write list(Tuple) and for list into tuple write tuple(list)
+
+
+16. Variables that ‘contains’ list values are not necessarily lists themselves. Instead, what do they contain?
+Ans: It can be tuple of list or dict of list which have values as list
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans: By using copy.copy() it create shallow copy that mean you have two variables but reference is same so if you change in any one variable both will change opposite copy.deppcopy create two differnt refence or we can say two memory location so if you update any variable that would not affect another one
