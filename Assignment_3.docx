@@ -1,0 +1,45 @@
+﻿1. Why are functions advantageous to have in your programs?
+Ans: Function makes your code re-usable that mean for perticuler functionality you don’t need to write code again and again only create one function for that and call this. Function makes you program shorter, easier to read and update also during exacution time your ram will consume less memory becuase it consume memory when function called other wise your function program does not consume ram.
+
+2. When does the code in a function run: when it’s specified or when it’s called? 
+Ans: By using def keyword you can define tradition function(lambda also function but not traditional) in python. So for create any function like my function name is hello so i can write def hello() and for call this function I write only hello() that time it will automatically started runing and you will get return value of function.
+
+3. What statement creates a function?
+Ans: To create traditional function we use def keyword i.e if i want to create any function that name in first that time i will write def first() and inside small bracket you can pass n number of agrs.
+
+4. What is the difference between a function and a function call?
+Ans: Function is a block code which take some input parameter as agrs(some time 0 agrs) and process them and return output. Althout function call is code which use to control function i.e. if you want some particuler output which return by some function that time you need to call that function
+
+5. How many global scopes are there in a Python program? How many local scopes?
+Ans: Only one globel scope per program execution which remains untill program terminated. If you define any variable in globel scope that time you can you this at any line of program.
+Same as globel local variable has only one scope but it is valid for one function . Suppose your function have any variable so you can access this untill function execute return statement after you can’t access this variable
+
+6. What happens to variables in a local scope when the function call returns?
+Ans: After execution of function (i.e after return) local variable will destroy or we can garbage collector delete this variable.
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Ans: Return is used for complete the function execution or we can say if you want to terminate you function then use return. Return also use for get some value from function i.e. if you want some processed value from function then use return. This is possible to have expression in return function for example you have 2 agrs(a,b) then you can pass return a+b 
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+Ans: None
+
+9. How do you make a function variable refer to the global variable?
+Ans: By using global keyword you can give global scope to your local variable.
+
+10. What is the data type of None?
+Ans: None have its own data type that is NoneType
+
+11. What does the sentence import areallyourpetsnamederic do?
+Ans: Please write qustion correctly.
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Ans: After importing spam I just write spam.bacon() to call bacon() function.
+
+13. What can you do to save a programme from crashing if it encounters an error?
+Ans: We can use try except clause to handle any kind of error.
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+Ans: try and exsept clause for prevent program from error. For example if you program giving some error then put this stuff in try block and if you thing some lines of program if any error occur then put this in except block simpaly if any error encounter in try block then your except block code will exacute.
+
+
+
