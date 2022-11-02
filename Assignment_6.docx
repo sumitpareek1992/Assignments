@@ -1,0 +1,38 @@
+﻿1. What are escape characters, and how do you use them?
+Ans: During string construction if we want to add some out side of string construction rule we use escape characters. Escape character is \ (\’,\\,\r\t,\b,\f,\ooo,\xhh). Suposse I have one string there i want to start new line then i use \n
+
+2. What do the escape characters n and t stand for?
+Ans: n is for new line in same string and t is for tab or we can say 4 spaces
+
+3. What is the way to include backslash characters in a string?
+Ans: Supose if you want new line then you just give \ with n (\n) or between to string if you want to add any variable and you string start with “ then use \”variable\”.
+
+4. The string “Howl’s Moving Castle” is a correct value. Why isn&#39;t the single quote character in the word Howl’s not escaped a problem?
+Ans: Becuase you value start from “. In string if you start you string with “” and you use ‘ that time it will treat this as normal character.
+
+5. How do you write a string of newlines if you don’t want to use the n character?
+Ans: If you want you want to prind string in next line then use end=”” keyword if you don’t want to use \n
+
+6. What are the values of the given expressions?
+Ans:
+‘Hello, world!’[1] = ‘e’
+“Hello, world!”[0:5] = ‘Hello’
+“Hello, world!”[:5] = ‘Hello’
+“Hello, world!”[3:] = ‘lo, world’
+
+7. What are the values of the following expressions?
+Ans:
+‘Hello’.upper() = ‘HELLO’
+‘Hello’.upper().isupper() = True
+‘Hello’.upper().lower() = False
+
+8. What are the values of the following expressions?
+Ans:
+‘Remember, remember, the fifth of July.’.split() = [‘Remember,’,’remember’,’the’, ‘fifth, ‘of’, ‘July’]
+‘-’.join(‘There can only one’.split()) = ‘There-can-only-one’
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans:  for right-justifying-rjust(), for  left-justifying-ljust() and for centring- center()
+
+10. What is the best way to remove whitespace characters from the start or end?
+Ans: For that user strip() method like string.strip().
