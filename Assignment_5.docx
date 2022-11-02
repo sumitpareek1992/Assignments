@@ -1,0 +1,29 @@
+﻿1. What does an empty dictionary’s code look like?
+Ans: it look’s like {}
+
+2. What is the value of a dictionary value with the key ‘foo’ and the value 42?
+Ans: dict_values([42]) i.e by using values you will get list of all values
+
+3. What is the most significant distinction between a dictionary and a list?
+Ans: Both are mutable but the differnce is list is collection of elements but dict is collection of key values so for list you can replace any element by indexing value but in dict you have to use key
+
+4. What happens if you try to access spam[‘foo’] if spam is {‘bar’: 100}?
+Ans: It will give key error that is spam does not have key with ‘foo’
+
+5. If a dictionary is stored in spam, what is the difference between the expressions ‘cat’ in spam and ‘cat’ in spam.keys()?
+Ans: First return True if dict have key or value which name is ‘cat’ and ‘cat’ spam.keys() also return True if dict have any key which name is cat
+
+6. If a dictionary is stored in spam, what is the difference between the expressions ‘cat’ in spam and ‘cat’ in spam.values()?
+Ans First return True if dict have key or value which name is ‘cat’ and ‘cat’ spam.values() also return True if dict have any value which name is cat
+
+7. What is a shortcut for the following code?
+
+if ‘color’ not in spam:
+spam[‘color’] = ‘black’
+
+Ans spam[‘color’] = ‘black’ if ‘color’ not in spam else None
+
+8. How do you ‘pretty print’ dictionary values using which module and function?
+Ans: For that we use pprint module and and to prind dict we wrire  pprint.print(dict)
+
+
