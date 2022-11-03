@@ -12,3 +12,9 @@ Ans: writerow() method takes list as agr to write line in csv file
 
 5. What do the keyword arguments delimiter and line terminator do?
 Ans:  delimiter indicated boundary between words or lines by deafult  delimiter for csv file is comma(,). Suppose if you are reading something and you want to terminate line after perticuler work or exression then use  line terminator.
+
+6. What function takes a string of JSON data and returns a Python data structure?
+Ans: In python we have json module which have loads() function which will take json data and load into python data structure.
+
+7. What function takes a Python data structure and returns a string of JSON data?
+Ans: This also have by json module which name is dump() it take python data structured data ans return json data.
