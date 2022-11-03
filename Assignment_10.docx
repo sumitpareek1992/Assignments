@@ -1,0 +1,26 @@
+﻿1. How do you distinguish between shutil.copy() and shutil.copytree()?
+Ans: If you want to copy all files from source to destination even destination dir was not created then use shutil.copytree() and if you want to copy partuculer files then use shutil.copy().
+
+2. What function is used to rename files??
+Ans: from os module we use rename() method like os.rename(current_name, updated_name)
+
+3. What is the difference between the delete functions in the send2trash and shutil modules?
+Ans: send2trash use for move files to trash although shutil use to delete file parmanantly.
+
+4.ZipFile objects have a close() method just like File objects’ close() method. What ZipFile method is equivalent to File objects’ open() method?
+Ans: only differnce is ZipFile mehtod use for zip file and open for remaing
+
+5. Create a programme that searches a folder tree for files with a certain file extension (such as .pdf or .jpg). Copy these files from whatever location they are in to a new folder.
+Ans: 
+def search_copy(folder,extension,destination):
+    folder = os.path.abspath(folder)
+	destFolder = os.path.abspath(destFolder)
+	print('Looking in', folder, 'for files with extensions 	of','.join(extensions))
+	for foldername, subfolders, filenames in os.walk(folder):
+		for filename in filenames:
+			name, extension = os.path.splitext(filename)
+			if extension in extensions:
+				fileAbsPath = foldername + os.path.sep + filename
+				print('Coping', fileAbsPath, 'to', destFolder)
+				shutil.copy(fileAbsPath, destFolder)
+call this function and give folder where you want to search extension and destination
