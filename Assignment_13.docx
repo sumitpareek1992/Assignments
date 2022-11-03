@@ -1,0 +1,14 @@
+﻿1. What advantages do Excel spreadsheets have over CSV spreadsheets?
+Ans: From GUI side Excel is batter becuase it has data in tabuler for so we can easliy read and search another one is csv save data in plan text formate comma saparated but can’t protect some data like chart but if you want some data processing by program then use csv becuase it is fast and take less memory
+
+2.What do you pass to csv.reader() and csv.writer() to create reader and writer objects?
+Ans: First open file by using open() like with open(file,’r’) as f: then pass csv.reader(f) to read file and for write also open file in write mode and give csv.wrire(f) to write anyting in file then use writerow to write rows.
+
+3. What modes do File objects for reader and writer objects need to be opened in?
+Ans: To perform reader operatopn open file in read(‘r’) mode and for writer open file in write(‘w’) mode
+
+4. What method takes a list argument and writes it to a CSV file?
+Ans: writerow() method takes list as agr to write line in csv file
+
+5. What do the keyword arguments delimiter and line terminator do?
+Ans:  delimiter indicated boundary between words or lines by deafult  delimiter for csv file is comma(,). Suppose if you are reading something and you want to terminate line after perticuler work or exression then use  line terminator.
