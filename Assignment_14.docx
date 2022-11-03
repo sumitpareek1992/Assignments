@@ -1,0 +1,21 @@
+﻿1. What does RGBA stand for?
+Ans: it stand fir red-green-blue-alpha color in RGBA we have rgba() function that define occupacy of the color
+2. From the Pillow module, how do you get the RGBA value of any images?
+Ans: after install pillow import ImageColor  from PIL(pillow) then give ImageColor.getrgb() and give partuiculer color from image and you will get rgb value
+3. What is a box tuple, and how does it work?
+Ans: It is same as tuple but it allow only read aoly noperations and to create new box tiple use box.tuple.new() to check exiting data is tuple or not use box.tuple.is()
+
+4. Use your image and load in notebook then, How can you find out the width and height of an Image object?
+Ans: First open image by using open() function than(img =open(image)) use img.height and img.wridth to calculate hieght and wirdth of image
+
+5. What method would you call to get Image object for a 100×100 image, excluding the lower-left quarter of it?
+Ans: First open your image by open() function then by using PIL use resize() function to give 100*100 size and get new object that is resize_img then use crop function and give resize_img.crop(0,0,25,25)
+6. After making changes to an Image object, how could you save it as an image file?
+Ans: After making any changes to save img use save() method suppose you image object that name is img than give img.save(dir+img_name,quality)
+7. What module contains Pillow’s shape-drawing code?
+Ans: Import ImageDraw from PIL then give ImageDraw.Draw(image) than on this iamge you can draw any shape by using loop or anthing we have draw.line function for line.
+
+8. Image objects do not have drawing methods. What kind of object does? How do you get this kind of object?
+Ans: Image does not have this but you can create image object which can be draw over by using PIL.ImageDraw.Draw(image). It will create object where you can draw on image.
+
+
