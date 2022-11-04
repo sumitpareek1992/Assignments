@@ -1,0 +1,40 @@
+﻿1. What is the relationship between def statements and lambda expressions ?
+Ans: def statement use to define traditional python function which have specific name which you gave also it return None still you did not return anything althoug lambda is anonymous function which does not have any name also lambda resricted to one line and it will return some object as per calculation
+
+2. What is the benefit of lambda?
+Ans: They are very usefull when you need to write small logic od one line so you can call any time also it take less memory and make you program shorter
+
+3. Compare and contrast map, filter, and reduce.
+Ans: All three are python built-in function(heigher-order) which takes two peramerte first one is function and second is iterable object like list or tuple etc. Map function use to map output of iterable object by using function for example if you have list and you want square of every element then use map 
+lst = [1,2,3,4]
+square_lst = list(map(lambda i:i*2,lst) 
+print(square_lst) = [1,4,9,16]
+
+Same as map we have filter() which also tale two agrs one is function second is iterable object and give filterd object that mean first function then agr of function it will add or remove element suppose we want value grater then 2
+def greater(x):
+    if x>2:
+      return x
+lst = [1,2,3,4]
+filtered_lst = list(filter(greater,lst) 
+print(filtered_lst) = [3,4]
+
+reduce also same and use to redule length of iterbale object like if we want to add complet list then use this
+lst = [1,2,3,4]
+reduced_lst = list(reduce(lambda a,b:a+b,lst) 
+print(reduced_lst) = [13]
+
+4. What are function annotations, and how are they used?
+Ans: function annotation is use to define type of data that mean if you want dict then give ‘a’:1 that mean this is a dict and or suppose if you want to give simple agr to function that time you can give like this func(a:exp,b:exp) that are annotations for simple perameters similarly if you want annotation for excess perameter that mean *agrs and *kwargs that mean you want to give n numbers of perameter every time use this func(*args:exp,*kwargs:exp) also you can give nested perameter by this func((a:exp,b:exp),(c:exp,d:exp)) like for decorator we use @ .
+
+5. What are recursive functions, and how are they used?
+Ans: recursive function are call itself again and again and go in an infinate loop that me you function never and untill your condition does not statisfy. It has two part first with give you output and check condition to come out from function and second part is use to call itself for example:
+def recur():
+   print(“hello”)
+   if datetime.now() == “10”:
+      return
+   recure()
+
+6. What are some general design guidelines for coding functions?
+Ans: you have to start you function by def statement and end with return.you can do coding as you want but many python developer follow pep8 coding startdard which says that you function name should be start by any alphabate and small latter for class you shoud do this capital latter. Use space or table for indentation other wise you will get indentation error. Put output of function in variable then chekc this by any method like try if then pass this variable to return.
+7. Name three or more ways that functions can communicate results to a caller.
+Ans: First and most powerfull way is return statement by this you function will return something to caller. Second is print by using this you will get some prind statement and caller will get info about function called. Third is db query in this you function call some db query and after operation caller get idea function was exacuted.
