@@ -1,0 +1,14 @@
+﻿1) . What is the difference between enclosing a list comprehension in square brackets and parentheses?
+Ans: [] bracket denotes list that mean if you write any statement between [] that mean this is list comprehension but  parentheses use to define generator exp , tuples and if you want to close any logic.
+
+2) What is the relationship between generators and iterators?
+Ans: iterators are objects which have countable values to create this we use function iter() and for next value we use next(). Ganarator is another way to create iterators. To create this we use yield keyword and for iteration we use loop or slicing
+
+3) What are the signs that a function is a generator function?
+Ans: If any function contain yield statement then it is genarator function and it will create genarator object.
+
+4) What is the purpose of a yield statement?
+Ans: to create generator object we use yield statement.
+
+5) What is the relationship between map calls and list comprehensions? Make a comparison and contrast between the two.
+Ans: List comprehensions are easy to read compare to map becuase for to understad map function you need to go to defination of first arg which is function and some time if you function and gid and already writen that time map is faster. List comperhension used when you need list as result
